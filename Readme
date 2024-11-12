@@ -1,0 +1,28 @@
+### Steps to Run the App
+
+
+1. Install Cocopods
+2. Install Pods
+3. Open XCWorkspace
+
+
+### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
+
+I prioritized optimizing the user interface, focusing heavily on performance and efficiency. To achieve this, I implemented synchronous calls strategically and utilized Kingfisher for image loading and caching, which significantly improved load times. Given the app's scale, I recognized that both efficiency and a high-quality UI were essential for delivering a seamless user experience. I also tried to use latest patterns such as Async Await and SwiftUI.
+
+### Time Spent: Approximately how long did you spend working on this project? How did you allocate your time?
+
+About 5 hours total. The basic setup took me roughly 1 hour, the UI about 1.5hours, the network handling about 1 hour, and writing test cases took me about 1.5 hours. 
+
+### Trade-offs and Decisions: Did you make any significant trade-offs in your approach?
+
+### Weakest Part of the Project: What do you think is the weakest part of your project?
+
+Due to time constraints, I couldn't implement comprehensive error handling throughout the app. Currently, the app is designed to exit gracefully, displaying an empty recipe screen if a loading failure occurs. However, I would like to incorporate additional error handling and catch statements across various sections to further enhance reliability.
+
+
+### External Code and Dependencies: Did you use any external code, libraries, or dependencies?
+
+Only Kingfisher for image Cacheing
+
+### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
